@@ -1,7 +1,7 @@
 <package format="3">
   <name>onerobot_description</name>
   <description>Onerobot urdf description</description>
-  <maintainer email="aliben.development@gmail.com">aliben</maintainer>
+  <maintainer email="aliben.develop@gmail.com">aliben</maintainer>
   <license>BSD-3-Clause</license>
   <version>1.0.0</version>
 

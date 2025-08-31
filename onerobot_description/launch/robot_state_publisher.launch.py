@@ -37,8 +37,10 @@ def process_ros2_controllers_config(context):
 
     # Define both source and install paths
     src_config_path = os.path.join(
-        package_share_description,
-        'config',
+        #package_share_description,
+        #'config',
+        home,
+        'project/onerobot_ws/src/onerobot/onerobot_description/config',
         robot_name
     )
     install_config_path = os.path.join(
