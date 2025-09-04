@@ -27,7 +27,7 @@ def generate_launch_description():
     ekf_launch_file_path = 'launch/ekf_gazebo.launch.py'
     ekf_config_file_path = 'config/ekf.yaml'
     map_file_path = 'maps/cafe_world_map.yaml'
-    nav2_params_path = 'config/rosmaster_x3_nav2_default_params.yaml'
+    nav2_params_path = 'config/onebot_nav2_default_params.yaml'
     rviz_config_file_path = 'rviz/nav2_default_view.rviz'
 
     # Set the path to different packages
@@ -146,7 +146,7 @@ def generate_launch_description():
     # Robot configuration
     declare_robot_name_cmd = DeclareLaunchArgument(
         name='robot_name',
-        default_value='rosmaster_x3',
+        default_value='onebot',
         description='The name for the robot')
 
     declare_slam_cmd = DeclareLaunchArgument(
